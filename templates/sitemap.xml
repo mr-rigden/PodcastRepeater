@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+    
+        <loc>{{config['base_URL']}}</loc>
+        {% for episode in episodes  %}<loc>{{config['base_URL']}}/episode/{{episode['slug']}}</loc>
+        {% endfor %}
+    </url>
+</urlset> 

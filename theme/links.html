@@ -1,0 +1,31 @@
+<div class="box">
+
+        <div>
+          <h2 class='left'>Subscribe</h2>
+          <ul class='left'>
+                {% for link in config['subscribe']  %}
+                <li>
+                    <a href="{{link[1]}}">{{link[0]}}</a>
+  
+                </li>
+                {% endfor %}  
+
+          </ul>
+
+        </div>
+  
+        <div>
+          <h2 class='right'>Links</h2>
+          <ul class='right'>
+                {% for link in config['links']  %}
+                <li>
+                    <a href="{{link[1]}}">{{link[0]}}</a>
+  
+                </li>
+                {% endfor %}  
+          </ul>
+        </div>
+  
+  
+  
+      </div>

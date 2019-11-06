@@ -1,0 +1,17 @@
+{
+  "base_URL": "https://sorryaboutthefuture.com/",
+  "feed_URL": "https://sorryaboutthefuture.libsyn.com/rss",
+  "output_dir": "/home/jason/Code/PodcastRepeater/output",
+  "theme_dir": "/home/jason/Code/theme",
+  "background_color": "black",
+  "link_color": "#F80350",
+  "text_color": "white",
+   "links": [
+      ["Newsletter", "https://tinyletter.com/sorryaboutthefuture"],
+      ["Twitter", "https://twitter.com/sorryaboutthef"]
+  ],
+  "subscribe":[
+    ["Newsletter", "https://tinyletter.com/sorryaboutthefuture"],
+    ["Twitter", "https://twitter.com/sorryaboutthef"]
+  ]
+}

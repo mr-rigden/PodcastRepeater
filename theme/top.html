@@ -1,0 +1,107 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{% if episode %}{{episode['title']}}{% else %}{{ podcast['rss']['channel']['title'] }}{% endif %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://use.typekit.net/hjp3xzd.css">
+
+
+
+  <style>
+
+    a {
+      color:{{ config['link_color'] }};
+    }
+
+    audio {
+      width: 100%;
+      padding-bottom: 1rem;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      font-family: canada-type-gibson, sans-serif;
+      color: {{ config['text_color'] }};
+      background-color: {{ config['background_color'] }};
+
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: .5rem;
+      margin-top: .5rem;
+    }
+
+    li {
+      padding-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 0rem;
+      margin-bottom: .5rem;
+    }
+
+
+
+    #cover-art {
+      width: 100%;
+      height: auto;
+      margin-bottom: .5rem;
+    }
+
+    #main {
+      padding: 1rem;
+      max-width: 25rem;
+      margin: auto;
+    }
+
+    #nav {
+      background-color: black;
+      color: white;
+    }
+
+
+
+    .box {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 1rem;
+    }
+    .box>div {
+      width: 50%;
+    }
+    .box ul,  #episode-list ul {
+      margin: 0rem;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .center {
+      text-align: center;
+    }
+    .left {
+      text-align: left;
+    }
+
+    .right {
+      text-align: right;
+    }
+
+  </style>
+
+
+</head>
+
+<body>
